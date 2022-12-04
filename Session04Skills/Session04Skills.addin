@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command Session04Skills</Text>
+    <Description>Some description for Session04Skills</Description>
+    <Assembly>Session04Skills.dll</Assembly>
+    <FullClassName>Session04Skills.Command</FullClassName>
+    <ClientId>5d71b7c9-c40b-4a89-9916-da5a249a0673</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application Session04Skills</Name>
+    <Assembly>Session04Skills.dll</Assembly>
+    <FullClassName>Session04Skills.App</FullClassName>
+    <ClientId>2166799f-14dd-40e0-8ef3-27d0582aa294</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
